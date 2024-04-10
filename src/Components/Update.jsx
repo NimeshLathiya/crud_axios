@@ -23,7 +23,7 @@ const Update = () => {
   };
 
   useEffect(() => {
-    setId(localStorage.getItem(""));
+    setId(localStorage.getItem("id"));
     setName(localStorage.getItem("name"));
     setEmail(localStorage.getItem("email"));
   }, []);
