@@ -8,7 +8,7 @@ const Read = () => {
 
   let res = async () => {
     let apiData = await axios.get(
-      "https://65c3674c39055e7482c0ceea.mockapi.io/crud"
+      "https://66196b97125e9bb9f299f3f3.mockapi.io/crudapps"
     );
     setDatas(apiData.data);
     console.log(apiData.data);
@@ -16,7 +16,7 @@ const Read = () => {
 
   const handleDelete = (id) => {
     axios
-      .delete(`https://65c3674c39055e7482c0ceea.mockapi.io/crud/${id}`)
+      .delete(`https://66196b97125e9bb9f299f3f3.mockapi.io/crudapps/${id}`)
       .then(() => {
         res();
       });
