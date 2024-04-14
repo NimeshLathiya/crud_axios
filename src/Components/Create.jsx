@@ -15,7 +15,7 @@ const Create = () => {
     const header = { "Access-Control-Allow-Origin": "*" };
 
     axios.post(
-      "https://65c3674c39055e7482c0ceea.mockapi.io/crud",
+      "https://66196b97125e9bb9f299f3f3.mockapi.io/crudapps",
       {
         name: name,
         email: email,
