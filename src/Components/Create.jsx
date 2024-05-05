@@ -6,7 +6,7 @@ const Create = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  const history = useNavigate();
+  const history = ();
 
   const handleSubmit = (e) => {
     e.preventDefault();
