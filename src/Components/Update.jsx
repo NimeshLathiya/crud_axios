@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const Update = () => {
-  const [id, setId] = useState(0);
+  const [id, setId] = useState();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
