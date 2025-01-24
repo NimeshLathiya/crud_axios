@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const Create = () => {
-  const [name, setName] = useState("");
+ 
   const [email, setEmail] = useState("");
 
   const history = useNavigate();
