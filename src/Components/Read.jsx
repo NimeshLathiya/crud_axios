@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 const Read = () => {
   const [datas, setDatas] = useState([]);
+  const [tabledark, setTabledark] = useState("");
+
 
   let res = async () => {
     let apiData = await axios.get(
