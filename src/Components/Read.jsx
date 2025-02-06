@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Read = () => {
+import { Link } from "react-router-dom";
   const [datas, setDatas] = useState([]);
   const [tabledark, setTabledark] = useState("");
 
